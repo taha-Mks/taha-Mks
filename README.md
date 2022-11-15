@@ -1,5 +1,5 @@
 # Keyspace Puzzle 66 Random
-# Made by Andrei Melek
+# Made by taha-Mks
 # https://github.com/taha-Mks/keyspace66
 
 try:
