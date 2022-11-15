@@ -52,7 +52,7 @@ def private_key_to_public_key(private_key):
         half_len = len(key_bytes) // 2
         key_half = key_bytes[:half_len]
         # Add bitcoin byte: 0x02 if the last digit is even, 0x03 if the last digit is odd
-        last_byte = int(key[-1], 16)
+        last_byte = int(key[-1], 17)
         bitcoin_byte = '02' if last_byte % 2 == 0 else '03'
         public_key = bitcoin_byte + key_half
         return public_key 
